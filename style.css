@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    background-color: #F7EF87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    min-height: 50px;
+    background-color: #383C43;
+}
+
+nav ul {
+    min-height: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #F7EF87;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    background-color: #f8f4c0 ;
+    padding: 16px;
+}
+
+section {
+    border: 1px solid #383C43;
+    border-radius: 5px;
+    margin: 64px 0;
+    padding: 16px;
+
+    min-height: 200px;
+    background-color: #bbbbf1;
+
+    width: 100%;
+}
+
+section ul {
+    margin-left: 54px;
+}
+
+h1,h2,h3, h4{
+    font-family: 'Poppins', sans-serif;
+    color: #4E5660;
+    margin: 16px 0;
+}
+
+h1 {
+    font-size: 64px;
+}
+p, ul {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #4E5660;
+
+}
+
+.galeria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #4E5660;
+    background-color: #f8f4c0
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    padding: 16px;
+    
+}
+
+footer {
+    height: 50px;
+    background-color: #383C43;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
